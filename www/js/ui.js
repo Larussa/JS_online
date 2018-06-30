@@ -25,11 +25,11 @@ class UI {
   clearContainer() {
     this.container.innerHTML = "";
   }
-  addOption() {
-     const option = `
-       <option value=${source.id}>${source.name}</option>
-        `;
-     document.getElementById('source').insertAdjacentHTML("beforeend", option);
+  addSources(source) {
+    const option = `
+        <option value=${source.id}>${source.name}</option>
+         `;
+    document.getElementById('source').insertAdjacentHTML("beforeend", option);
   }
   showLoader() {
     this.clearContainer();
