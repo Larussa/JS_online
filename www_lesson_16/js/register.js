@@ -7,7 +7,7 @@ const form = document.forms['login-form'];
 const email = form.elements['email'];
 const password = form.elements['password'];
 const register = document.querySelector('.register');
-const new_register = document.querySelector('.new_register');
+const show_password = document.querySelector('.show_password');
 
 
 form.addEventListener("click", onRegister);
@@ -27,7 +27,7 @@ function onRegister (e) {
     }
 }
 
-new_register.addEventListener('click', function (e) {
+show_password.addEventListener('click', function (e) {
     e.preventDefault();
     if (password.type === 'text') {
         password.type = 'password';

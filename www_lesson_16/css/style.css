@@ -1,6 +1,27 @@
-.new_register {
+
+* {
+    box-sizing: border-box;
+}
+.show_password {
     cursor: pointer;
     position: absolute;
     top: 15px;
     right: 10px;
 }
+header {
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+    position: absolute;
+}
+.login {
+    display: inline-block;
+}
+.news-control {
+    padding-top: 60px;
+}
+.flow-text {
+    font-size: 16px;
+    padding-right: 10px;
+    line-height: 36px;
+  }
