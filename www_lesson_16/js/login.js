@@ -39,9 +39,6 @@ register.addEventListener('click', function () {
 
 show_password.addEventListener('click', function (e) {
     e.preventDefault();
-    if (password.type === 'text') {
-        password.type = 'password';
-    } else {
-        password.type = 'text';
-    }
+    password.type === 'text' ? password.type = 'password' : password.type = 'text';
+
 });

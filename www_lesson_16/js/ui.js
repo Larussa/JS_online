@@ -106,5 +106,18 @@ class UI {
         }, 3000);
 
     }
+    showInfoReg() {
 
+        const template = `
+       <div class="card grey lighten-1 template">
+        <div class="card-content">
+            <span class="card-title">All ok! registration was successful.</span>
+         </div>
+      </div>
+    `;
+        const title = document.querySelector('.card-title');
+        // Insert alert
+        title.insertAdjacentHTML('beforeend', template);
+
+    }
 }
