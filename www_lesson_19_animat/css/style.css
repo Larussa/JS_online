@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+}
+.show_password {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 15px;
+}
+h3 {
+    color:#ee6e73;
+}
+.news-control {
+    padding-top:10px;
+}
+.flow-text {
+    margin-left: 15px;
+    font-size: 12px;
+    padding-right: 10px;
+    line-height: 36px;
+    color: black;
+  }
+.alert.alert-danger {
+    background-color: #e57373;
+}
+.alert.alert-success{
+    background-color:#4db6ac;
+}
